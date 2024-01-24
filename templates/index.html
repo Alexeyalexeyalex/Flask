@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/styles/style.css">
+    <title>
+        {% block title %}
+            Одежда
+        {% endblock %}
+    </title>
+</head>
+<body>
+    
+    <!-- Первый блок -->
+    <div>
+        <header>
+            <div class="logo_search">
+                <img class="logo" src="/static/assets/images/logo_icon.svg" alt="logo">
+                <img class="search" src="/static/assets/images/search_icon.svg" alt="search">
+            </div>
+
+            <div class="menu_buttons">
+                <img src="/static/assets/images/menu_icons1.svg" alt="menusubmenu">
+                <img class="menu_buttons_profile" src="/static/assets/images/menu_icons2.svg" alt="profile">
+                <img class="menu_buttons_cart" src="/static/assets/images/menu_icons3.svg" alt="cart">
+            </div>
+        </header>
+    </div>
+
+    
+
+   
+
+    {% block content %}
+        Страница не найдена
+    {% endblock %}
+
+
+    <!-- Шестой блок  -->
+    <section class="six">
+        <div class="six_subblock">
+
+            <div class="six_item">
+                <img class="six_img" src="/static/assets/images/6_block_image2.svg" alt="">
+                <div>
+                    <h4 class="six_first_h4">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, </h4>
+                    <h4 class="six_second_h4">a pulvinar purus condimentum“</h4>
+                </div>
+               
+            </div>
+
+            <div class="six_item2">
+                <h3 class="six_h3">SUBSCRIBE</h3>
+                <h4 class="six_h4">FOR OUR NEWLETTER AND PROMOTION</h4>
+
+                <form class="six_form" action="">
+                    <input class="six_input" type="email" placeholder="Enter Your Email">
+                    <button class="six_button">
+                        <p class="six_button_p">Subscribe</p>
+                    </button>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer_subblock">
+            <h4 class="footer_h4">© 2022  Brand  All Rights Reserved.</h4>
+            <form action="">
+                <div class="footer_buttons">
+                    <button class="footer_button">
+                        <img src="/static/assets/images/footerImg1.svg" alt="">
+                    </button>
+    
+                    <button class="footer_button">
+                        <img src="/static/assets/images/footerImg2.svg" alt="">
+                    </button>
+                    
+                    <button class="footer_button">
+                        <img src="/static/assets/images/footerImg3.svg" alt="">
+                    </button>
+    
+                    <button class="footer_button">
+                        <img src="/static/assets/images/footerImg4.svg" alt="">
+                    </button>
+                </div>
+             
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>

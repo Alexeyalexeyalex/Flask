@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+
+{% block content %}
+     
+<!-- Второй блок -->
+<div class="image_header">
+    <div class="second_block">
+        <img class="first_img" src="/static/assets/images/1_block_image1.svg" alt="man">
+        <div class="image_header_text">
+            <img class="rectungle_img" src="/static/assets/images/Rectangle.svg" alt="rectangle">
+            <div class="second_subblock">
+                <h1 class="image_header_text_brand">THE BRAND</h1>
+                <div class="image_header_text_second">
+                    <h2 class="image_header_text_luxerous">OF LUXERIOUS </h2>
+                    <h2 class="image_header_text_fashion"> FASHION</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>   
+{% endblock %}
+
+
