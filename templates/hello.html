@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+
+{% block content %}
+
+    Привет {{ login }}
+
+    <form action="{{ url_for('main_window') }}" method="post">
+        <input type="submit" value="Выйти">
+    </form>
+
+{% endblock %}
